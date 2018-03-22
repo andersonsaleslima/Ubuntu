@@ -1,0 +1,8 @@
+# Cinnamon
+http://www.techtudo.com.br/dicas-e-tutoriais/noticia/2016/11/como-deixar-o-ubuntu-com-cara-do-windows-10.html
+
+# Travar mudanças no Desktop
+https://www.vivaolinux.com.br/topico/GNOME/Bloquear-troca-de-papel-de-parede
+
+#
+https://codigoavulso.com.br/linux-mint-como-reiniciar-ambiente-grafico-mate-e-cinnamon/

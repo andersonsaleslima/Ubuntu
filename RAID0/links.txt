@@ -1,0 +1,2 @@
+#
+https://www.vivaolinux.com.br/artigo/Como-fazer-RAID-0-com-mdadm-no-Debian

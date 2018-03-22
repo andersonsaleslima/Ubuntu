@@ -1,0 +1,38 @@
+# instalar pacote mdadm para configuração do RAID
+
+	apt-get install mdadm
+
+# Alterar o tipo de sistema de arquivos das particões do disco /dev/sda , 
+# comando cfdisk para interface gráfica, ou fdisk para linha de comando
+
+	fdisk /dev/sda
+
+		t ;			( definir tipo da partição )
+		1 ;			( escolher a partição )
+		L ;			( listar todos os códigos tipos )		
+		8e ;			( tipo lipo Linux LVM )
+		w ;			( gravar as alterações e sair )
+
+# particionar disco extra inserido
+
+	fdisk /dev/sdb	
+		m ;			(ajuda)
+		n ;			( nova partição )
+		p ;			(primária)
+		<ENTER>			( opção do ínicio do local da gravação na memória )
+		<ENTER>			( opção do término do local da gravação na memória, ou tamanho )
+		w ;			( gravar as alterações e sair )
+		t ;			( definir tipo da partição )
+		L			( listar todos os tipos )
+		8e			( tipo lipo Linux LVM )
+		w ;			( gravar as alterações e sair )
+		!
+
+# Formatar formatar a partição
+
+	mkfs.ext4 /dev/sda1 /dev/sdb1
+
+# Criando RAID 0
+
+	
+
