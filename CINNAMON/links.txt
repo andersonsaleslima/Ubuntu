@@ -6,3 +6,6 @@ https://www.vivaolinux.com.br/topico/GNOME/Bloquear-troca-de-papel-de-parede
 
 #
 https://codigoavulso.com.br/linux-mint-como-reiniciar-ambiente-grafico-mate-e-cinnamon/
+
+# gconf-editor
+http://www.hardware.com.br/livros/linux/usando-gconf-editor.html
